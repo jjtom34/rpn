@@ -6,7 +6,7 @@ install:
 script:
 - python -m unittest
 
-after-success:
+after_success:
 - python -m unittest
 - coverage run -m unittest
 - coveralls
